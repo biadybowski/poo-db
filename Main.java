@@ -86,7 +86,7 @@ public class Main {
                                 stmtProf.executeUpdate();
 
                             } else if (tipo == 2) {
-                                System.out.print("Aniversário (yyyy-MM-dd): ");
+                                System.out.print("Aniversário(ano-mes-dia): ");
                                 String aniversario = scanner.nextLine();
                                 System.out.print("Endereço: ");
                                 String endereco = scanner.nextLine();
